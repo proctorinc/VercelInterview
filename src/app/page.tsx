@@ -14,31 +14,101 @@ export default function Home() {
           <li>
             Identify, file (and, where possible, resolve) bugs in private and
             public Vercel/Next.js repos on GitHub
+            <p>
+              Tehnical troubleshooting code is my passion. I have a lot of
+              experience reading, developing, and fixing code and its my
+              favorite part of my job
+            </p>
           </li>
           <li>
             Work with the product team to develop a new feature based on
             feedback from customers
+            <p>
+              I really enjoy creative problem solving and one way I like to do
+              this is coming up with solutions for customer issues. I&quot;m
+              used to seeing customer pains on a daily basis and I&quot;d love
+              to be a part of finding solutions to fix those and implement them.
+            </p>
           </li>
           <li>
             Work with engineering teams during incidents and provide updates to
             internal and external stakeholders
+            <p>
+              In my current experience I converse with Software Engineers daily.
+              Whether my own team or via tickets. I&quot;m proud of my ability
+              to communicate clearly, write replication steps, and communicate
+              on a clear and technical level when necessary.
+            </p>
           </li>
           <li>
             Work with people to figure out if Vercel is suitable for their use
             case
+            <p>
+              I love giving personalized recommendations based off of my mastery
+              of a system. In my current role I can easily recommend a great
+              solution for a customer if they describe their wants and
+              capabilities. I really enjoy doing maxing out potential for
+              efficiency and ease.
+            </p>
           </li>
-          <li>Help train and onboard new support teammates</li>
+          <li>
+            Help train and onboard new support teammates
+            <p>
+              I&quot;ve done a lot of onboarding, mentorind, and supporting new
+              teammates since working here. I started this 6 months into my role
+              and its been the most helpful for my own learning. I also love
+              working with teammates and helping others.
+            </p>
+          </li>
         </ol>
         <h4>Least Favorite</h4>
         <ol>
-          <li>Respond to 50+ support requests via email every day</li>
+          <li>
+            Respond to 50+ support requests via email every day
+            <p>
+              While I might feel accomplished completing so many tickets, pure
+              numbers are not what motivate me and doing this everyday without
+              change would most likely wear me out. I love focusing on how
+              I&quot;ve been able to solve technical problems, give quality
+              suggestions, and make an impact to feel successful. This means
+              changing up my work, hopping on calls, conversating, working with
+              engineers, etc. More than just writing tickets.
+            </p>
+          </li>
+          <li>
+            Manage a support team
+            <p>
+              While I would love to be in a management role in the distant
+              future, this is just not my focus right now. I still have a lot to
+              learn and I think the best way I am used is currently in peer to
+              peer situations where I can help my team.
+            </p>
+          </li>
           <li>
             Create video tutorials to help teach users a specific feature or use
             case
+            <p>
+              I&quot;ve done this before and it is not my preferred task. I
+              don&quot;t really love recording myself for public walkthroughs as
+              leading these types of videos is not my strength.
+            </p>
           </li>
-          <li>Find and recruit teammates for the support team</li>
-          <li>Manage a support team</li>
-          <li>Run ticket review sessions to make sure tone is consistent</li>
+          <li>
+            Find and recruit teammates for the support team
+            <p>
+              Honestly, the technical troubleshooting interests me more than
+              recruiting others for a job.
+            </p>
+          </li>
+          <li>
+            Run ticket review sessions to make sure tone is consistent
+            <p>
+              This seems to fall into the managment role that I previously
+              mentioned is not what I&quot;m looking for currently. I think I
+              can definitely add value to a meeting like this, but it
+              doesn&quot;t sound like my favorite thing to lead.
+            </p>
+          </li>
         </ol>
       </div>
       <h2>2. What do you want to learn or do more of at work?</h2>
@@ -135,7 +205,7 @@ export default function Home() {
       </div>
       <h2>
         5. Imagine a customer writes in requesting help with a build issue on a
-        framework or technology that you{"'"}ve not seen before. How would you
+        framework or technology that you&quot;ve not seen before. How would you
         begin troubleshooting this and what questions would you ask the customer
         to understand the situation better?
       </h2>
@@ -280,11 +350,13 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           From my experience I would think that one of the most common problems
-          users will send in tickets for would be for errors related to building
-          their project including environment variables and build configurations
-          as this is something I’ve had trouble with and I can see how there can
-          be confusion with not understanding how to build your code properly
-          for deployment.{" "}
+          users will send in tickets for would be for errors related to
+          Deploying a project including environment variables and build
+          configurations as this is something I’ve had trouble with in the past
+          with my own projects and its complicated to understand the process of
+          building for deployment. Also because this is a common free tier
+          feature, I would assume this would cause a lot of traffic from users
+          who are not as experienced.
         </p>
         <p>
           I think the best way to overcome this in the short term is to create
@@ -298,7 +370,12 @@ export default function Home() {
       </div>
       <h2>10. How could we improve or alter this familiarisation exercise?</h2>
       <div className={styles.description}>
-        <p>You could improve this exercise by</p>
+        <p>
+          Honestly I cannot think of a way to improve this currently. I think
+          that I gain value by reflecting on my strengths and thought processes,
+          and you will gain value by hearing about my experience, seeing a
+          glipse into my tone and thought processes, and more. Seems good to me!
+        </p>
       </div>
     </main>
   );
