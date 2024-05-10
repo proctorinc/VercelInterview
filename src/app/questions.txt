@@ -1,0 +1,102 @@
+The Exercise
+1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.
+
+Favorite
+Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub
+Work with the product team to develop a new feature based on feedback from customers
+Work with engineering teams during incidents and provide updates to internal and external stakeholders
+Work with people to figure out if Vercel is suitable for their use case
+Help train and onboard new support teammates
+
+Least Favorite
+Respond to 50+ support requests via email every day
+Create video tutorials to help teach users a specific feature or use case
+Find and recruit teammates for the support team
+Manage a support team
+Run ticket review sessions to make sure tone is consistent
+
+2. What do you want to learn or do more of at work?
+
+I want to do more of highly technical troubleshooting and working with engineers to identify and fix issues. I love working in and troubleshooting code and working in a wide range of languages is my greatest strength. My ability to learn the context of code and figure out possible issues along with suggesting a solution is a strength I can bring to any role.
+
+3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was Successful?
+
+One ticket I received was by a customer claiming that they were receiving the incorrect difficulties of content when using our training platform. To solve this issue for the user I had to follow my typical troubleshooting process of:
+Verify issue on Platform
+Confirm Platform functionality
+Decide steps to fix
+First I verified the issue was present and from my perspective they were correct that this looked to be an issue. The next step I researched into our documentation on how our platform serves content. I discovered that it uses an algorithm that takes a number of situations into consideration when serving content. This functionality was poorly documented, but there were
+
+4. When would you choose to use Edge Functions, Serverless Functions, or Edge
+Middleware with Vercel?
+
+I would choose Serverless functions when you need to run computationally intensive workloads with bundles up to 250 MB in size. Overall serverless takes longer since its region-first and will have a longer travel distance for the request, but it allows for more RAM and CPU power along with complete compatibility with the Node.js API.
+
+I would choose Edge functions for smaller and more lightweight tasks that need the ability to scale in a cost-effective manner. Edge functions run closer to the user as they are deployed globally to the distributed edge network, which means they will have quicker responses. They provide less computational power than serverless functions, but they are cheaper as they are charged for time processing requests. Edge function responses can also be cached and streamed in real-time which makes for even faster and cheaper responses.
+
+I would choose Edge Middleware if you want the same benefits of edge functions, but if you need to run code before the request is processed if you need to modify the response. This can include authentication, modifying request headers, and more.
+
+5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
+
+If this situation happened I would first start with gaining information to help me gain context around the issue. I assume there’s most likely some logs that support can access to look further into the issue without asking them anything, so I would start there first. If somehow I couldn’t access logs for this, I would ask for screenshots and the full text of any errors for the issue.
+
+Now with some context, I’d begin researching on my end to see if I can use the error message to find a solution. I’d start with any help articles that we provide for these errors, then look at previous tickets that also included this error and perhaps even the framework/technology I don’t know.
+
+If that doesn’t help me, I would search to get more context around what the error means and what common issues it’s caused by. This way I can familiarize myself enough to discuss the issue with the user.
+
+Based on my above research I would then get back to the customer to give them a summary of my research and initial troubleshooting steps. I’d ask them to test a few things out
+
+I would also earmark this ticket for the future and use some downtime to learn about this framework since I wasn’t familiar with it.
+
+6. The customer from question 5 replies to your response with the below: “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it
+out. It must be a platform issue so just fix it for me instead of asking me questions.”
+Please write a follow-up reply to the customer.
+
+I’m sorry to hear that has been causing issues for you. I looked into this on my end and I was able to determine <..insert brief on research to show I’ve put in effort to help…>. From what I can see it looks like
+
+I’d be happy to jump on a call and get this issue resolved quickly. Otherwise could please try the following steps? These will help me determine the root cause to help get you moving again ASAP:
+
+<..insert clear troubleshooting steps we need the user to do..>
+
+Let me know if you can do that and I’d love to get this issue resolved for you as soon as I can!
+
+Thanks,
+
+Matt
+
+My reasoning for above: Yes, we should absolutely understand that users are having a frustrating time and may not want to attempt things on their end. However with it being my goal to help users and resolve any issues, I believe it’s best to kindly push back but give them clear steps. This requires anticipating the information I’ll need to resolve the issue so that we don’t turn this into a long back and forth email chain which would be frustrating. Also giving the option to join a call will make some users very happy as it shows immediacy.
+
+7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+
+Hi <customer>,
+
+Thanks for sending this in. Redirecting from the /blog path to https://example.com is really dependent on the framework you are using. Could you let me know what framework you are using? I’d be happy to look into this further on my end and get you an answer.
+
+8. A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+
+That’s a great question. To make sure your project is not being indexed by search engines, you can set the X-Robots-Tag header to “noindex”. Ex:
+
+X-Robots-Tag: noindex
+
+Here’s a helpful article talks more about how to do this in your :
+https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines#x-robots-tag-header
+
+Please note that if you are using Preview Deployments this header is already included by default. But if you are using Production Deployments then you will have to add this header on your own.
+
+Let me know if that helps and if you have any other questions on how to do this in a specific framework, I’d love to help!
+
+<Additional Information>
+This sounds like a standard/common question and I was able to find a help article for it. Because of this I think it’s a good focus to serve the help article to give them more information as well as to promote self service in the future.
+
+9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
+
+From my experience I would think that one of the most common problems users will send in tickets for would be for errors related to building their project including environment variables and build configurations as this is something I’ve had trouble with and I can see how there can be confusion with not understanding how to build your code properly for deployment. I think the best way to overcome this in the short term is to create easy and clear documentation for common error messages that the user can search for. I think in the long term the best solution could even be to improve the UI to make the build process more approachable. For example to directly link help articles when certain errors appear or to improve the UX based on common user pitfalls to help them avoid them in the future by analyzing behavioral trends.
+
+10. How could we improve or alter this familiarisation exercise?
+
+You could improve this exercise by
+
+Wrapping Up
+1. Make sure that you have re-deployed the project to reflect your latest changes.
+2. Ensure the repository on GitHub, GitLab or Bitbucket is public.
+3. Respond to let us know you have completed the exercise, with links to both your deploy & repository.
