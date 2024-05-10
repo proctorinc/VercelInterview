@@ -211,10 +211,10 @@ export default function Home() {
         </p>
       </div>
       <h2>
-        7. A customer writes in to the Helpdesk asking "How do I do a redirect
-        from the /blog path to https://example.com?" Please write a reply to the
-        customer. Feel free to add any information about your decision making
-        process after the reply.
+        7. A customer writes in to the Helpdesk asking &quot;How do I do a
+        redirect from the /blog path to https://example.com?&quot; Please write
+        a reply to the customer. Feel free to add any information about your
+        decision making process after the reply.
       </h2>
       <div className={styles.description}>
         <div>
